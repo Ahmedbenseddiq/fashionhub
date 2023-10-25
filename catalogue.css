@@ -1,0 +1,477 @@
+body {
+    background-color: #000; 
+    color: #fff; 
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1.5vw 0;
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    font-family: 'amiri';
+    z-index: 22;
+    justify-content: space-between;
+}
+
+header img {
+    width: 19.2vw;
+    height: 6vw;
+}
+
+nav ul li {
+    display: inline;
+    margin: 2.5vw;
+    background-color: #000000;
+    position: relative;
+    left: -10vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.title{
+    position: relative;
+    left: 40vw;
+    top: 4vw;
+}
+
+.coats {
+    display: flex;
+    width: 80vw;
+    height: 13.8889vw;
+    margin: 2.7778vw;
+    padding: 2.7778vw;
+    position: relative;
+    left: -2.2222vw;
+}
+
+.coats h2 {
+    position: relative;
+    top: 2.7778vw;
+    left: 40vw;
+    font-family: 'amiri';
+    font-size: 3vw;
+}
+
+.price-tag1 {
+    color: #000000;
+    position: relative;
+    top: 7.7778vw; 
+    left: 2.7778vw;
+}
+
+.price-tag1 img {
+    width: 13.8889vw;
+    height: 18.5185vw;
+    margin: 2.7778vw; 
+    background-color: #ffffff;
+    position: relative;
+    left: 50%vw;
+    margin-top: 15vw;
+}
+
+.product-info1 {
+    background-color: #ffffff;
+    width: 13.8889vw;
+    margin: 2.7778vw;
+    position: relative;
+    top: -5.7778vw;
+}
+
+.shoes {
+    display: flex;
+    width: 80vw; /* Convert width to vw units */
+    max-height: 35.4167vw; /* Convert max-height to vw units */
+    margin: 2.7778vw; /* Convert margin to vw units */
+    padding: 2.7778vw; /* Convert padding to vw units */
+    position: relative;
+    left: -4vw; /* Convert left position to vw units */
+    margin-top: 35vw;
+}
+
+.price-tag2 {
+    color: #000000;
+    position: relative;
+    top: 7.7778vw; 
+    left: 2.7778vw;
+}
+
+.product-info2 {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 2.7778vw;
+    position: relative;
+    left: 7vw;
+    top: -5.5vw;
+}
+
+.paragraphe1 {
+    position: relative;
+    top: 35vw;
+    left: 40vw;
+    font-size: 2.7778vw;
+    font-family: 'amiri';
+    width: 30.5556vw;
+}
+
+.shoes h2 {
+    position: relative;
+    top: 2.7778vw;
+    left: 47vw;
+    font-family: 'amiri';
+    font-size: 2.7778vw;
+}
+
+.shoes img {
+    width: 16.6667vw; 
+    height: 20.8333vw;
+    margin: 2.7778vw; 
+    background-color: #ffffff;
+    position: relative;
+    left: 6.9444vw;
+    top: 0;
+}
+
+.shoess {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    width: 80vw; 
+    margin: 2.7778vw;
+    padding: 2.7778vw;
+    position: relative;
+    left: -11.1111vw;
+    margin-top: 20vw;
+}
+
+.shoess img {
+    width: 27.7778vw; 
+    height: 27.7778vw; 
+    margin: 2.7778vw; 
+    background-color: #ffffff;
+    position: relative;
+    top: -8.3333vw; 
+    left: 20.8333vw; 
+}
+
+.shoess p {
+    width: 27.7778vw; 
+    margin: 2.7778vw; 
+    font-size: 2vw; 
+    font-family: 'amiri';
+    position: relative;
+    left: 20vw;
+}
+
+.trousers {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    width: 80vw;
+    margin: 2.7778vw;
+    padding: 2.7778vw; 
+    position: relative;
+    left: -11.1111vw; 
+    height: 27.7778vw;
+}
+
+.trousers h2 {
+    position: relative;
+    top: -7.222200000000001vw;
+    left: 49.7778vw;
+    font-family: 'amiri';
+    font-size: 2.7778vw;
+}
+
+.trousers img {
+    width: 13.8889vw;
+    height: 18.5185vw;
+    margin: 2.7778vw;
+    background-color: #ffffff;
+    position: relative;
+    left: 6.7778vw;
+    top: 0;
+}
+
+.price-tag3 {
+    color: #000000;
+    position: relative;
+    top: 2.7778vw; 
+    left: 2.7778vw; 
+}
+.product-info3 {
+    background-color: #ffffff;
+    width: 13.8889vw;
+    margin: 0.6944vw;
+    position: relative;
+    left: 8.8vw;
+    top: -3.5vw;
+}
+
+.paragraphe2 img {
+    width: 15vw;
+    height: 20vw;
+    position: relative;
+    top: -10vw;
+    left: 60vw;
+}
+
+.paragraphe2 p {
+    font-size: 2vw;
+    position: relative;
+    top: 5.7778vw;
+    left: 23.9444vw;
+    width: 20.8889vw;
+}
+
+
+.paragraphe3 img {
+    width: 17.8889vw;
+    height: 23.6111vw;
+    position: relative;
+    top: 7.3332999999999995vw;
+    left: 16.9444vw;
+}
+
+.paragraphe3 p {
+    width: 18.0556vw;
+    position: relative;
+    top: -13.8889vw;
+    left: 60.7222vw;
+    font-size: 2vw;
+}
+
+.title2{
+    position: relative;
+    left: 50%;
+}
+
+
+.shirts {
+    display: flex;
+    width: 80vw; /* Convert width to vw units */
+    height: 50vw; /* Convert height to vw units */
+    margin: 2vw; /* Convert margin to vw units */
+    padding: 2vw; /* Convert padding to vw units */
+    position: relative;
+    left: 8.5vw; /* Convert top position to vw units */
+}
+
+.shirts h2 {
+    position: relative;
+    top: 1vw;
+    left: 35vw;
+    font-family: amiri;
+    font-size: 2.7778vw;
+}
+
+
+.shirts img {
+    width: 13.8889vw; /* Convert width to vw units */
+    height: 17.3611vw; /* Convert height to vw units */
+    margin: 2.7778vw; /* Convert margin to vw units */
+    background-color: #ffffff;
+    position: relative;
+    left: -3.6111vw; /* Convert left position to vw units */
+    top: 13.8889vw; /* Convert top position to vw units */
+}
+
+.price-tag4 {
+    color: #000000;
+    position: relative;
+    top: -10vw; /* Convert top position to vw units */
+    left: 5vw; /* Convert left position to vw units */
+}
+
+.product-info4 {
+    background-color: #ffffff;
+    width: 57%;
+    margin: 9.1111vw;
+    position: relative;
+    left: -10vw;
+    top: 2vw;
+}
+
+.price-tag5 {
+    color: #000000;
+    position: relative;
+    top: 5vw; 
+    left: 0.2222vw;
+}
+
+.product-info5 {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 0.1111vw;
+    position: relative;
+    left: 2vw;
+    top: -2vw;
+}
+
+.price-tag6 {
+    color: #000000;
+    position: relative;
+    top: 10vw;
+    left: -9.6vw;
+}
+
+.product-info6 {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 0.1111vw;
+    position: relative;
+    left: 12vw;
+    top: -2vw;
+}
+
+.accessories h2 {
+    position: relative;
+    top: 2vw; /* Set the top position in vw units */
+    left: 2vw; /* Set the left position in vw units */
+    font-family: amiri;
+    font-size: 2vw; /* Set the font size in vw units */
+}
+
+.watches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.belts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.watches img {
+    width: 12vw; 
+    height: 15vw;
+    margin: 2rem;
+    background-color: #ffffff;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.belts img {
+    width: 12vw;
+    height: 15vw;
+    margin: 2rem;
+    background-color: #ffffff;
+    position: relative;
+    left: 10vw; 
+    top: 0;
+}
+
+footer {
+    width: 100%;
+    height: 13.33vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    margin-top: 10vw;
+    align-items: center;
+}
+   
+@media (max-width: 768px){
+    header img {
+        width: 19.2vw;
+        height: 6vw;
+        position: relative;
+        top: 5vw;
+    }
+    .title {
+        position: relative;
+        left: 25vw;
+        top: 4vw;
+    }
+
+    .paragraphe1 {
+        position: relative;
+        top: 41vw;
+        left: 40vw;
+        font-size: 2.7778vw;
+        font-family: 'amiri';
+        width: 30.5556vw;
+    }
+
+    .paragraphe2{
+        margin-top: 20vw;
+    }
+
+    .product-info4 {
+        background-color: #ffffff;
+        width: 47%;
+        margin: 9.1111vw;
+        position: relative;
+        left: -12vw;
+        top: 2vw;
+    }
+
+    .shirts img {
+        width: 13.8889vw;
+        height: 17.3611vw;
+        margin: 2.7778vw;
+        background-color: #ffffff;
+        position: relative;
+        left: -5.6111vw;
+        top: 13.8889vw;
+    }
+
+    .watches img {
+        width: 38vw;
+        height: 44vw;
+        margin: 2rem;
+        background-color: #ffffff;
+        position: relative;
+        left: 0vw;
+        top: 0;
+    }
+    .product-info5 {
+        background-color: #ffffff;
+        width: 72.5%;
+        margin: 0.1111vw;
+        position: relative;
+        left: 7vw;
+        top: -8vw;
+    }
+    .accessories h2 {
+        position: relative;
+        top: 2vw;
+        left: 35vw;
+        font-family: amiri;
+        font-size: 5vw;
+    }
+    .belts img {
+        width: 38vw;
+        height: 44vw;
+        margin: 2rem;
+        background-color: #ffffff;
+        position: relative;
+        left: 10vw;
+        top: 0;
+    }
+    .product-info6 {
+        background-color: #ffffff;
+        width: 72.5%;
+        margin: 0.1111vw;
+        position: relative;
+        left: 17vw;
+        top: -8vw;
+    }
+
+    #aaa{
+        display: none;
+    }
+
+}

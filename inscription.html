@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashionhub</title>
+    <link rel="stylesheet" type="text/css" href="inscription.css">
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="nom">Last name :</label>
+            <input type="text" id="nom" name="nom" >
+    
+            <label for="prenom">First name :</label>
+            <input type="text" id="prenom" name="prenom" >
+    
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" >
+    
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" >
+    
+            <input type="submit" value="sign up">
+        </form>
+    </main>
+    <footer>
+        <p>© 2020 Enver, All Rights Reserved</p>
+
+        <p>Terms and Conditions</p>
+        <p>Privacy Policy</p>
+        <p>Support</p>
+    </footer>
+    <script>
+        function validateForm() {
+            // Récupérer les valeurs des champs
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+        
+            // Vérifier si les champs sont vides
+            if (name === "" || email === "" || password === "") {
+                alert("Veuillez remplir tous les champs.");
+                return false; // Empêcher l'envoi du formulaire
+            }
+        
+            // Autres validations à ajouter ici (par exemple, validation d'e-mail)
+        
+            return true; // Permettre l'envoi du formulaire si tout est correct
+        }
+        </script>
+</body>
+</html>
